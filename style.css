@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+}
+
+.profile {
+     border-radius: 50%;
+}
+
+#welcome {
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(#e62a15 25%,#c26c10 75%);
+    display: table;
+    width: 100%;
+    height: 800px;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+#name {
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    font-family: monospace;
+}
+
+#bio {  
+    max-width: 450px;
+    margin: 25px auto;
+    font-family: 'Luxurious Roman', cursive;
+    padding: 50px;
+}
+
+.line {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+
+.parralax-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.menu {
+    list-style: none;
+    position: fixed;
+    top: 0px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+    width: 100%;
+    background: linear-gradient(#fffb00 0%, #00fff7 100%);
+}
+
+
+.links {
+    display: inline;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.links:hover{
+    background: linear-gradient(#00ff22 25%,#00fff2 75%);
+}
+
+#contacts iframe{
+    width: 100%;
+}
